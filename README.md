@@ -1,4 +1,25 @@
 # Audio-Driven Interactive Prototype
+Yuxuan Zhou
+
+## How to Interact
+1. Open the page in Chrome or Firefox.
+- Allow microphone access.
+- Make sounds or speak – louder sounds reveal a dark stormy overlay and animate the branch structures.
+
+## My Animation Approach
+- **Driver:** Audio input (using p5.Amplitude)
+- **Animated Features:** 
+  - Volume affects rain density and visibility of a black overlay (revealAmount).
+  - Volume also causes left/right branches to sway slightly (swing1/swing2).
+- **Uniqueness from Group:** While others in my group used mouse or time, mine is entirely audio-reactive and combines reveal + rotation.
+<img src="readmeImages/03.png" width="45%" />
+
+## Inspiration
+1. Personal experience: It often rains in Sydney in summer, which left a deep impression on me.
+2. Raindrops and landing feedback:
+
+![An image of the rain](readmeImages/03.png)
+The way he used simple geometric shapes to deconstruct raindrops inspired me.
 
 ## Technical Explanation
 
