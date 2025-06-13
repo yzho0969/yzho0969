@@ -54,6 +54,7 @@ function drawSplitCirclePrecise(cx, cy, radius, splitOffset = 0, rotationDeg = 0
   let redPoints = [];
   let greenPoints = [];
 
+  // Circular point sampling (all based on local coordinates)
   for (let angle = 0; angle <= 360; angle += degrees(resolution)) {
     let x = cos(angle) * radius;
     let y = sin(angle) * radius;
@@ -64,6 +65,7 @@ function drawSplitCirclePrecise(cx, cy, radius, splitOffset = 0, rotationDeg = 0
     }
   }
 
+  // Calculate the endpoints of the white line (within the circle)
   let dx = splitOffset;
   if (abs(dx) >= radius) return;
   let dy = sqrt(sq(radius) - sq(dx));
@@ -91,14 +93,10 @@ function drawSplitCirclePrecise(cx, cy, radius, splitOffset = 0, rotationDeg = 0
   vertex(bottom.x, bottom.y);
   endShape(CLOSE);
 
-// stroke('#262F37');
-// strokeWeight(2);
-// noFill();
-// ellipse(0, 0, radius * 2);
-
-// stroke('#DBAD6E');
-// strokeWeight(2);
-// line(top.x, top.y, bottom.x, bottom.y);
+  // line
+  // stroke('#DBAD6E');
+  // strokeWeight(2);
+  // line(top.x, top.y, bottom.x, bottom.y);
   pop();
 } // The main body of the tree
 
