@@ -27,7 +27,9 @@ Yuxuan Zhou
 1. Personal experience: It often rains in Sydney in summer, which left a deep impression on me.
 
 2. Raindrops and landing feedback:
+
 ![An image of the rain](readmeImages/03.png)
+
 The way he used simple geometric shapes to deconstruct raindrops inspired me.
 [Link Text](https://www.bilibili.com/video/BV1pj411E7w7/?spm_id_from=333.337.search-card.all.click&vd_source=f5195aced750d38e6b048d377b9b01f8)
 
